@@ -1,4 +1,6 @@
 ﻿Console.WriteLine("Insira um número");
+
+// Converte o primeiro número para inteiro de forma segura
 if(!int.TryParse(Console.ReadLine(), out var number1))
 {
     Console.WriteLine("Error converting number");
